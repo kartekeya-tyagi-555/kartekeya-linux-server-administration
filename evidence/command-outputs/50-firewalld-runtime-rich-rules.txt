@@ -1,0 +1,1 @@
+rule family="ipv4" port port="8080" protocol="tcp" log prefix="FW-8080 " level="info" limit value="5/m" accept

@@ -1,0 +1,5 @@
+=== Sticky Bit Directory Permission ===
+drwxrwx--T. 2 root projectteam 27 Nov 11 04:40 public-shared
+=== File Ownership ===
+total 0
+-rw-r--r--. 1 root root 0 Nov 11 04:34 root-file.txt

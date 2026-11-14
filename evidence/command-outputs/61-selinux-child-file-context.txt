@@ -1,0 +1,1 @@
+unconfined_u:object_r:var_t:s0 /opt/selinux-lab/testfile.txt

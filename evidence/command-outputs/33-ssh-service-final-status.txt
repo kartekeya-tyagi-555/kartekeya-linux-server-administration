@@ -1,0 +1,23 @@
+● sshd.service - OpenSSH server daemon
+     Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-11-10 04:51:55 EST; 1 day 5h ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 7832 ExecReload=/bin/kill -HUP $MAINPID (code=exited, status=0/SUCCESS)
+   Main PID: 1084 (sshd)
+      Tasks: 1 (limit: 10712)
+     Memory: 2.8M
+        CPU: 998ms
+     CGroup: /system.slice/sshd.service
+             └─1084 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+Nov 11 09:59:22 kartekeya-server systemd[1]: Reloading OpenSSH server daemon...
+Nov 11 09:59:22 kartekeya-server sshd[1084]: Received SIGHUP; restarting.
+Nov 11 09:59:22 kartekeya-server systemd[1]: Reloaded OpenSSH server daemon.
+Nov 11 09:59:22 kartekeya-server sshd[1084]: Server listening on 0.0.0.0 port 22.
+Nov 11 09:59:22 kartekeya-server sshd[1084]: Server listening on :: port 22.
+Nov 11 09:59:51 kartekeya-server sshd[7840]: Connection closed by authenticating user kartik 192.168.31.128 port 39772 [preauth]
+Nov 11 10:01:44 kartekeya-server sshd[7897]: Accepted publickey for kartik from 192.168.31.128 port 39452 ssh2: ED25519 SHA256:Qe1Dqc/exSn8zj46hq5wUpozqsw2vC7lHFSvxkbsQ8M
+Nov 11 10:01:45 kartekeya-server sshd[7897]: pam_unix(sshd:session): session opened for user kartik(uid=1001) by kartik(uid=0)
+Nov 11 10:03:18 kartekeya-server sshd[7955]: Connection closed by authenticating user root 192.168.31.128 port 38910 [preauth]
+Nov 11 10:06:51 kartekeya-server sshd[7988]: Connection closed by authenticating user kartik 192.168.31.128 port 41514 [preauth]

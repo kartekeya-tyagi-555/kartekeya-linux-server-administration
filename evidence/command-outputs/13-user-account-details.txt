@@ -1,0 +1,1 @@
+kartik:x:1001:1002::/home/kartik:/bin/bash

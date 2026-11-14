@@ -1,0 +1,2 @@
+rule family="ipv4" source address="192.168.31.1" port port="9090" protocol="tcp" accept
+rule family="ipv4" port port="8080" protocol="tcp" log prefix="FW-8080 " level="info" limit value="5/m" accept

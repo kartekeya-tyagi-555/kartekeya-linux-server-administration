@@ -1,0 +1,1 @@
+Default ACL inheritance is working

@@ -1,0 +1,29 @@
+=== Subdirectory Permissions ===
+# file: default-acl-lab/subdir-test
+# owner: root
+# group: root
+user::rwx
+user:kartik:rwx
+group::rwx
+mask::rwx
+other::---
+default:user::rwx
+default:user:kartik:rw-
+default:group::rwx
+default:mask::rwx
+default:other::---
+
+
+=== File Created by kartik ===
+-rw-rw----+ 1 kartik kartik 0 Nov 11 06:36 default-acl-lab/subdir-test/kartik-subdir-file.txt
+
+=== Inherited File ACL ===
+# file: default-acl-lab/subdir-test/kartik-subdir-file.txt
+# owner: kartik
+# group: kartik
+user::rw-
+user:kartik:rw-
+group::rwx	#effective:rw-
+mask::rw-
+other::---
+

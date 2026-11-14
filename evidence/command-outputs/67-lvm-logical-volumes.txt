@@ -1,0 +1,5 @@
+  LV        VG      Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert Devices            
+  root      rhel    -wi-ao---- <17.00g                                                     /dev/nvme0n1p2(512)
+  swap      rhel    -wi-ao----   2.00g                                                     /dev/nvme0n1p2(0)  
+  lv_app    vg_data -wi-a-----  10.00g                                                     /dev/sdb1(0)       
+  lv_backup vg_data -wi-a-----   5.00g                                                     /dev/sdb1(2560)    

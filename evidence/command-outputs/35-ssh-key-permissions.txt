@@ -1,0 +1,2 @@
+drwx------. 2 kartik kartik 111 Nov 11 09:41 /home/kartik/.ssh
+-rw-------. 1 kartik kartik 105 Nov 11 09:41 /home/kartik/.ssh/authorized_keys

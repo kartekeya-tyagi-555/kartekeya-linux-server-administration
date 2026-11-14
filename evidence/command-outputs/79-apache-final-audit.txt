@@ -1,0 +1,6 @@
+=== Apache Service Status ===
+active
+=== Apache Enable Status ===
+enabled
+=== Apache Listening Port ===
+tcp   LISTEN 0      511                *:80               *:*    users:(("httpd",pid=11969,fd=4),("httpd",pid=11968,fd=4),("httpd",pid=11964,fd=4),("httpd",pid=11961,fd=4))

@@ -1,0 +1,1 @@
+unconfined_u:object_r:usr_t:s0 /opt/kartekeya-linux-server-administration

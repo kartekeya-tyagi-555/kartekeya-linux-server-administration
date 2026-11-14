@@ -1,0 +1,16 @@
+=== ACL Removal Test ===
+
+-rw-r-----. 1 root projectteam 87 Nov 11 05:40 group-test.txt
+
+# file: group-test.txt
+# owner: root
+# group: projectteam
+user::rw-
+group::r--
+other::---
+
+
+=== File Content ===
+Group permission is working
+ACL write access is working
+ACL mask restored successfully

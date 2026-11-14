@@ -1,0 +1,5 @@
+NAME   FSTYPE FSVER LABEL UUID FSAVAIL FSUSE% MOUNTPOINTS
+sdb                                           
+└─sdb1                                        
+sdc                                           
+└─sdc1                                        

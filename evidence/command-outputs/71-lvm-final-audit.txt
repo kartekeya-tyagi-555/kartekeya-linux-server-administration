@@ -1,0 +1,23 @@
+NAME                  FSTYPE      FSVER    LABEL UUID                                   FSAVAIL FSUSE% MOUNTPOINTS
+sdb                                                                                                    
+└─sdb1                LVM2_member LVM2 001       QBYDwM-k2li-11cV-JMi6-TAsQ-DCXe-nw4wiy                
+  ├─vg_data-lv_app    xfs                        ea8ad6bf-77f1-4ca4-b8f5-7bfd882cb6b0     11.8G     1% /data/app
+  └─vg_data-lv_backup xfs                        10cce282-23c4-4f2e-b3c3-e79d7e3bfefd      4.9G     1% /data/backup
+sdc                                                                                                    
+└─sdc1                LVM2_member LVM2 001       nQdsEV-jQAu-IG2l-GGYU-f6JZ-lnJp-wDWxBX                
+  PV             VG      Fmt  Attr PSize   PFree  
+  /dev/nvme0n1p2 rhel    lvm2 a--  <19.00g      0 
+  /dev/sdb1      vg_data lvm2 a--  <20.00g  <3.00g
+  /dev/sdc1      vg_data lvm2 a--  <20.00g <20.00g
+  VG      #PV #LV #SN Attr   VSize   VFree 
+  rhel      1   2   0 wz--n- <19.00g     0 
+  vg_data   2   2   0 wz--n-  39.99g 22.99g
+  LV        VG      Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert Devices            
+  root      rhel    -wi-ao---- <17.00g                                                     /dev/nvme0n1p2(512)
+  swap      rhel    -wi-ao----   2.00g                                                     /dev/nvme0n1p2(0)  
+  lv_app    vg_data -wi-ao----  12.00g                                                     /dev/sdb1(0)       
+  lv_app    vg_data -wi-ao----  12.00g                                                     /dev/sdb1(3840)    
+  lv_backup vg_data -wi-ao----   5.00g                                                     /dev/sdb1(2560)    
+Filesystem                    Type  Size  Used Avail Use% Mounted on
+/dev/mapper/vg_data-lv_app    xfs    12G  118M   12G   1% /data/app
+/dev/mapper/vg_data-lv_backup xfs   5.0G   68M  4.9G   2% /data/backup

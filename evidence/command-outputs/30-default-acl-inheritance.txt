@@ -1,0 +1,27 @@
+=== Default ACL Directory ===
+# file: default-acl-lab
+# owner: root
+# group: projectteam
+user::rwx
+group::rwx
+other::---
+default:user::rwx
+default:user:kartik:rw-
+default:group::rwx
+default:mask::rwx
+default:other::---
+
+
+=== New File Inherited ACL ===
+# file: default-acl-lab/default-test.txt
+# owner: root
+# group: root
+user::rw-
+user:kartik:rw-
+group::rwx	#effective:rw-
+mask::rw-
+other::---
+
+
+=== File Content ===
+Default ACL inheritance is working

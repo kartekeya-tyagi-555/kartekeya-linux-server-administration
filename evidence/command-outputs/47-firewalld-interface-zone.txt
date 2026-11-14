@@ -1,0 +1,2 @@
+connection.id:                          ens160
+connection.zone:                        public

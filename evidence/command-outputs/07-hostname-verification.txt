@@ -1,0 +1,13 @@
+ Static hostname: kartekeya-server
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: df6d1bda5d804879a034307b38990178
+         Boot ID: a2e5c677a1e3467aad04246d36487ba9
+  Virtualization: vmware
+Operating System: Red Hat Enterprise Linux 9.6 (Plow)
+     CPE OS Name: cpe:/o:redhat:enterprise_linux:9::baseos
+          Kernel: Linux 5.14.0-570.12.1.el9_6.x86_64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform
+Firmware Version: 6.00

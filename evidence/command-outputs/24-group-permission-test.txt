@@ -1,0 +1,4 @@
+=== Group Permission Test ===
+-rw-r-----. 1 root projectteam 28 Nov 11 02:24 group-test.txt
+=== File Content ===
+Group permission is working

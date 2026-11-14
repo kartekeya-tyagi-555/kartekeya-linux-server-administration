@@ -1,0 +1,25 @@
+===== PHASE 10 FINAL AUDIT =====
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+0 loaded units listed.
+active
+active
+active
+active
+Enforcing
+running
+Filesystem                    Type      Size  Used Avail Use% Mounted on
+devtmpfs                      devtmpfs  4.0M     0  4.0M   0% /dev
+tmpfs                         tmpfs     870M     0  870M   0% /dev/shm
+tmpfs                         tmpfs     348M  9.0M  339M   3% /run
+/dev/mapper/rhel-root         xfs        17G  4.5G   13G  27% /
+/dev/nvme0n1p1                xfs       960M  365M  596M  38% /boot
+tmpfs                         tmpfs     174M  104K  174M   1% /run/user/0
+/dev/sr0                      iso9660    12G   12G     0 100% /run/media/root/RHEL-9-6-0-BaseOS-x86_64
+/dev/mapper/vg_data-lv_app    xfs        12G  118M   12G   1% /data/app
+/dev/mapper/vg_data-lv_backup xfs       5.0G   68M  4.9G   2% /data/backup
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens160           UP             192.168.31.128/24 fe80::20c:29ff:feaf:9853/64 
+SSH Syntax: OK
+Syntax OK
+Success, no errors or warnings detected
+<no matches>

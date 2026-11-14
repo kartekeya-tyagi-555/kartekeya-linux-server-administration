@@ -1,0 +1,5 @@
+Source IP: 192.168.31.1
+Destination: 192.168.31.128:9090
+Protocol: TCP
+Result: PASS
+Test: Windows host successfully accessed temporary HTTP server.

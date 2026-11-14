@@ -1,0 +1,1 @@
+-rwxr-xr-x. 1 kartik root 0 Nov 11 01:39 testfile.txt
